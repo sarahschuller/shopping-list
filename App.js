@@ -7,6 +7,9 @@ if(firebase.apps.length === 0){
   firebase.initializeApp(firebaseConfig)
 }
 
+const firebase = require('firebase');
+require('firebase/firestore');
+
 export default function App() {
   return (
     <View style={styles.container}>
